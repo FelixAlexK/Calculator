@@ -1,0 +1,49 @@
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#resultArea{
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 4em;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+table{
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(30, 30, 30);
+  table-layout: fixed;
+}
+
+td{
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: rgb(20, 20, 20);
+  cursor: pointer;
+}
+
+td:hover{
+  background-color: rgb(50, 50, 50);
+}
+
+.highlight{
+  background-color: rgb(35, 35, 35);
+}
+
+#equal{
+  background-color: rgb(80, 80, 240);
+}
+
+#equal:hover{
+  background-color: rgb(90, 90, 260);
+}
