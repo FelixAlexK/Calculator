@@ -1,13 +1,15 @@
+const container = document.getElementById('resultArea');
+
+
 function appendOperation(operation){
-  document.getElementById('resultArea').innerHTML += operation;
+  container.innerHTML += operation;
 }
 
 function calcResult(){
-  let container = document.getElementById('resultArea');
   let result =  eval(container.innerHTML);
   container.innerHTML = result;
 }
 
 function clearOperation(){
-  document.getElementById('resultArea').innerHTML = '';
+  container.innerHTML = '';
 }
