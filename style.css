@@ -30,6 +30,7 @@ td{
   font-size: 1.5em;
   background-color: rgb(20, 20, 20);
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 td:hover{
